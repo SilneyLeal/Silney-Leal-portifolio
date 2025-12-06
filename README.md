@@ -7,7 +7,7 @@
 - 🎓 **Engenharia de Software** - 8º semestre (Estácio de Sá)
 - 💼 **Fullstack em formação**: React • Node.js • PostgreSQL • Docker
 - 🚗 **30.000+ corridas** Uber/99 (4.8/5 ⭐) → Experiência real em mobilidade
-- 📱 **Projeto:** [Mobilenz](http://www.moblenz.com.br)
+- 📱 **Projeto:** [Moblenz](http://www.moblenz.com.br)
 - 📍 Porto Alegre, RS | **Imediato** (remoto/presencial)
 
 ## 🛠️ Stack
