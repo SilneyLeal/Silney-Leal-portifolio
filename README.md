@@ -1,24 +1,59 @@
-# 🚀 Silney Leal - Desenvolvedor Fullstack
+# Silney Leal · Desenvolvedor Fullstack em Formação
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/silney-leal-32473014a)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:silneyfleal@gmail.com)
+Repositório destinado à apresentação de currículo e informações profissionais de Silney Fuhrmann Leal, graduando em Engenharia de Software e em transição estruturada para a área de desenvolvimento de software.
 
-## 👨‍💻 Sobre mim
-- 🎓 **Engenharia de Software** - 8º semestre (Estácio de Sá)
-- 💼 **Fullstack em formação**: React • Node.js • PostgreSQL • Docker
-- 🚗 **30.000+ corridas** Uber/99 (4.8/5 ⭐) → Experiência real em mobilidade
-- 📱 **Projeto:** [Moblenz](http://www.moblenz.com.br)
-- 📍 Porto Alegre, RS | **Imediato** (remoto/presencial)
+---
 
-## 🛠️ Stack
-| Frontend | Backend | Database | Tools |
-|----------|---------|----------|-------|
-| React | Node.js | PostgreSQL | Git, Docker |
-| HTML5/CSS3 | Express | Supabase | VS Code, n8n |
+## Perfil Profissional
 
-## 📄 Currículo
-[![PDF](Curriculo-Silney-Leal.pdf)](Curriculo-Silney-Leal.pdf)
+- Graduando em **Engenharia de Software** (Estácio de Sá – 8º semestre, conclusão prevista para março/2027).
+- Foco em **desenvolvimento web fullstack** com JavaScript, Node.js, React e PostgreSQL.
+- Experiência prévia em **auditoria, gestão de negócios próprios e mobilidade urbana**, trazendo visão analítica, disciplina e orientação a resultados.
+- Interessa-se por projetos que valorizem **boas práticas de engenharia, qualidade de código e entrega contínua de valor.**
 
-## 🌐 Landing Page
-[![Live](https://silneyLeal.github.io/Silney-Leal-portifolio)](https://silneyLeal.github.io/Silney-Leal-portifolio)
+---
 
+## Principais Competências
+
+**Tecnologia**
+
+- Linguagens: JavaScript (ES6+), SQL, Python (básico), HTML5, CSS3  
+- Backend: Node.js, Express, APIs REST  
+- Bancos de dados: PostgreSQL, Supabase  
+- Ferramentas: Git/GitHub, VS Code, Docker (fundamentos), n8n, metodologias ágeis
+
+**Competências comportamentais**
+
+- Comunicação clara e objetiva  
+- Organização, disciplina e gestão de tempo  
+- Resiliência e capacidade de adaptação  
+- Aprendizado contínuo e foco em melhoria
+
+---
+
+## Projeto em Destaque
+
+**Mobilenz – Plataforma de Mobilidade Urbana**  
+Projeto pessoal em desenvolvimento, alinhado à experiência prática na área de mobilidade, com objetivo de oferecer uma solução digital para gestão e conexão entre motoristas e passageiros.
+
+- Área: Mobilidade urbana  
+- Papel: concepção, validação de negócio e desenvolvimento  
+- Acesso: [http://www.moblenz.com.br](http://www.moblenz.com.br)
+
+---
+
+## Currículo e Página Pública
+
+- **Página profissional (GitHub Pages):**  
+  `https://silneyleal.github.io/Silney-Leal-portifolio`
+
+- **Currículo em PDF:**  
+  Arquivo: `Curriculo-Silney-Leal.pdf` disponível neste repositório.
+
+---
+
+## Contato
+
+- E-mail: **silneyfleal@gmail.com**  
+- LinkedIn: [https://www.linkedin.com/in/silney-leal-32473014a](https://www.linkedin.com/in/silney-leal-32473014a)  
+- GitHub: [https://github.com/SilneyLeal](https://github.com/SilneyLeal)
