@@ -33,7 +33,7 @@ Repositório destinado à apresentação de currículo e informações profissio
 
 ## Projeto em Destaque
 
-**Mobilenz – Plataforma de Mobilidade Urbana**  
+**Moblenz – Plataforma de Mobilidade Urbana**  
 Projeto pessoal em desenvolvimento, alinhado à experiência prática na área de mobilidade, com objetivo de oferecer uma solução digital para gestão e conexão entre motoristas e passageiros.
 
 - Área: Mobilidade urbana  
