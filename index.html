@@ -3,73 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silney Leal - Desenvolvedor Fullstack | Porto Alegre</title>
-    <meta name="description" content="Desenvolvedor Fullstack em formação | React Node.js PostgreSQL | Mobilenz | Engenharia Software 8º semestre">
+    <title>Silney Leal | Desenvolvedor Fullstack</title>
+    <meta name="description" content="Silney Leal - Desenvolvedor Fullstack em formação, graduando em Engenharia de Software, com experiência prévia em auditoria, negócios próprios e mobilidade urbana.">
     <style>
-        :root{--primary:#1a73e8;--bg-gradient:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%);--card-shadow:0 20px 40px rgba(0,0,0,.1)}
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;color:#333;background:var(--bg-gradient);padding:2rem;max-width:900px;margin:0 auto}
-        .header{background:white;padding:3rem 2rem;border-radius:20px;box-shadow:var(--card-shadow);text-align:center;margin-bottom:2rem}
-        h1{color:var(--primary);font-size:clamp(2rem,5vw,3rem);margin-bottom:.5rem;font-weight:700}
-        .subtitle{font-size:1.3rem;color:#666;margin-bottom:2rem}
-        .contact{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;font-size:1.1rem;margin:2rem 0}
-        .contact a{color:var(--primary);text-decoration:none;padding:.7rem 1.2rem;border:2px solid var(--primary);border-radius:30px;transition:all .3s;font-weight:500}
-        .contact a:hover{background:var(--primary);color:white;transform:translateY(-2px)}
-        h2{color:#333;border-bottom:3px solid var(--primary);padding-bottom:1rem;margin:3rem 0 1.5rem;font-size:1.5rem}
-        .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin:2rem 0}
-        .skill{background:white;padding:2rem;border-radius:15px;box-shadow:var(--card-shadow);text-align:center}
-        .skill h3{margin-bottom:1rem;color:var(--primary);font-size:1.2rem}
-        .project{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;padding:2.5rem;border-radius:20px;margin:2rem 0;text-align:center}
-        .project h3{font-size:1.8rem;margin-bottom:1rem}
-        .pdf-btn{display:inline-block;background:linear-gradient(135deg,var(--primary),#0d47a1);color:white;padding:1.2rem 2.5rem;text-decoration:none;border-radius:50px;font-weight:700;font-size:1.1rem;box-shadow:0 15px 35px rgba(26,115,232,.4);transition:all .3s;margin:3rem 0;text-align:center}
-        .pdf-btn:hover{transform:translateY(-5px);box-shadow:0 25px 50px rgba(26,115,232,.6)}
-        footer{text-align:center;margin-top:4rem;padding:2rem;color:#666;font-size:.95rem;border-top:1px solid #eee}
-        @media(max-width:768px){.contact{flex-direction:column;align-items:center;text-align:center}.contact a{width:100%;max-width:300px;justify-content:center}}
+        :root {
+            --primary: #1f4e79;
+            --primary-light: #305f8b;
+            --text-main: #1f2933;
+            --text-muted: #6b7280;
+            --bg-page: #f5f5f7;
+            --bg-card: #ffffff;
+            --border-soft: #e5e7eb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 32px 16px 48px;
+        }
+
+        header {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 24px 28px;
+            box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+            border: 1px solid var(--border-soft);
+            margin-bottom: 24px;
+        }
+
+        .headline {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 650;
+            color: var(--primary);
+            letter-spacing: 0.02em;
+        }
+
+        .headline span {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 16px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin-top: 24px;
+            display: grid;
+            grid-template-columns: 2fr 1.1fr;
+            gap: 24px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: 10px;
+            border: 1px solid var(--border-soft);
+            padding: 18px 20px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+        }
+
+        p {
+            font-size: 0.95rem;
+        }
+
+        .muted {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 6px;
+        }
+
+        ul li {
+            font-size: 0.94rem;
+            margin-bottom: 4px;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            font-size: 0.8rem;
+            padding: 4px 8px;
+            border-radius: 999px;
+            background: #eef2f7;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .project a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.94rem;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        .cta {
+            margin-top: 24px;
+            text-align: left;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: var(--primary);
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 550;
+            text-decoration: none;
+            border: 1px solid var(--primary-light);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-light);
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            margin-left: 8px;
+            font-size: 0.9rem;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .btn-secondary:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 32px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>SILNEY FUHRMANN LEAL</h1>
-        <p class="subtitle">Desenvolvedor Fullstack | Engenharia de Software (8º semestre)</p>
+<div class="wrapper">
+    <header>
+        <div class="headline">
+            <h1>Silney Fuhrmann Leal</h1>
+            <span>Desenvolvedor Fullstack em formação · Graduando em Engenharia de Software</span>
+        </div>
         <div class="contact">
-            <span>📍 Porto Alegre, RS</span>
-            <a href="mailto:silneyfleal@gmail.com">✉️ Contato</a>
-            <a href="tel:+5551999690433">📱 (51) 99969-0433</a>
-            <a href="https://linkedin.com/in/silney-leal-32473014a">💼 LinkedIn</a>
-            <a href="https://github.com/SilneyLeal">🐙 GitHub</a>
+            <span>Porto Alegre, RS</span>
+            <span>|</span>
+            <a href="mailto:silneyfleal@gmail.com">silneyfleal@gmail.com</a>
+            <span>|</span>
+            <a href="tel:+5551999690433">(51) 99969-0433</a>
+            <span>|</span>
+            <a href="https://www.linkedin.com/in/silney-leal-32473014a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <span>|</span>
+            <a href="https://github.com/SilneyLeal" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
     </header>
-    
-    <section>
-        <h2>🚀 Destaques</h2>
-        <p><strong>Transição estratégica:</strong> Auditoria + Empreendedorismo → Desenvolvimento Fullstack. Foco em <strong>React, Node.js, PostgreSQL</strong> + mentalidade de entrega.</p>
-    </section>
-    
-    <section>
-        <h2>💻 Stack Técnico</h2>
-        <div class="skills">
-            <div class="skill"><h3>Frontend</h3><strong>React</strong><br>HTML5 • CSS3 Responsivo</div>
-            <div class="skill"><h3>Backend</h3><strong>Node.js + Express</strong><br>APIs RESTful</div>
-            <div class="skill"><h3>Database</h3><strong>PostgreSQL</strong><br>Supabase</div>
-            <div class="skill"><h3>Ferramentas</h3><strong>Git • Docker</strong><br>VS Code • n8n</div>
-        </div>
-    </section>
-    
-    <section>
-        <h2>📱 Projeto Destaque</h2>
-        <div class="project">
-            <h3>🔥 Plataforma Moblenz</h3>
-            <p>Plataforma de mobilidade urbana<br><small>(mesma área da experiência prática como motorista de app)</small></p>
-            <a href="http://www.moblenz.com.br" target="_blank" style="color:#ffd700;font-weight:700;font-size:1.3rem">🚀 Ver Demo</a>
-        </div>
-    </section>
-    
-    <div style="text-align:center">
-        <a href="Curriculo-Silney-Leal.pdf" class="pdf-btn" download>📥 Baixar Currículo Completo</a>
-    </div>
-    
-    <footer>
-        <p>✅ <strong>Disponível Imediato</strong> | Remoto/Presencial POA | Dezembro 2025</p>
-    </footer>
-</body>
-</html>
+
+    <main>
+        <!-- Coluna principal -->
+        <div>
+            <section>
+                <h2>Resumo Profissional</h2>
+                <div class="card">
+                    <p>
+                        Desenvolvedor fullstack em formação, com base acadêmica em Engenharia de Software e trajetória profissional prévia em auditoria, negócios próprios e mobilidade urbana. 
+                        Em transição estruturada para a área de tecnologia, com foco em desenvolvimento web moderno (JavaScript, React, Node.js e PostgreSQL) e qualidade de entrega.
+                    </p>
+                    <p class="muted" style="margin-top:8px;">
+                        Perfil analítico, orientado a resultado e comprometido com formação contínua e boas práticas de engenharia de software.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Experiência Relevante</h2>
+                <div class="card">
+                    <p><strong>Motorista de Aplicativo / Gestão de Negócio Próprio</strong> · 2014 – 2024</p>
+                    <ul>
+                        <li>Gestão de atividade autônoma com planejamento financeiro, metas e acompanhamento diário de indicadores de desempenho.</li>
+                        <li>Uso intensivo de plataformas digitais, mapas e sistemas de apoio à decisão em tempo real.</li>
+                        <li>Desenvolvimento de disciplina, organização e foco em atendimento de qualidade ao cliente.</li>
+                    </ul>
+                    <hr style="border:0;border-top:1px solid #e5e7eb;margin:12px 0;">
+                    <p><strong>Auditoria Contábil e Setor Público</strong> · 1997 – 2002</p>
+                    <ul>
+                        <li>Atuação em auditoria contábil e governamental, com análise de conformidade, documentação técnica e relatórios estruturados.</li>
+                        <li>Desenvolvimento de atenção a detalhes, visão de processo e cultura de compliance – diferenciais aplicados hoje na escrita de código e testes.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Projeto em Desenvolvimento</h2>
+                <div class="card project">
+                    <p><strong>Plataforma Moblenz</strong> · Mobilidade urbana</p>
+                    <p class="muted">Projeto pessoal em desenvolvimento, alinhado à experiência prática na área de mobilidade.</p>
+                    <p><strong>Stack sugerida:</strong> React · Node.js · PostgreSQL · APIs REST</p>
+                    <a href="http://www.moblenz.com.br" target="_blank" rel="noopener noreferrer">
+                        Acessar demonstração do projeto
